@@ -1,0 +1,9 @@
+#Write a program to find the sum of all even numbers from 1 to n.
+
+n = int(input("Enter your number : "))
+
+sum = 0 
+
+for i in range(2,n+1,2):
+    sum += i
+print(f"Sum of n  even sum is {sum} ")

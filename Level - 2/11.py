@@ -1,0 +1,6 @@
+#Write a program to read a number and check whether it is even or odd.
+num = int(input("Enter your number : "))
+if (num  % 2 == 0 ):
+    print(f"{num} is even. ")
+else :
+    print(f"{num} is odd. ")
